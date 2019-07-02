@@ -4,6 +4,7 @@ import createHistory from 'history/createBrowserHistory';
 
 // Pages
 import SignInPage from '../components/SignInPage';
+import SignUpPage from '../components/SignUpPage';
 import NotFoundPage from '../components/NotFoundPage';
 
 // Routes handler
@@ -16,6 +17,7 @@ const AppRouter = () => (
     <div>
       <Switch>
         <PublicRoute path="/" component={SignInPage} exact />
+        <PublicRoute path="/signUp" component={SignUpPage} exact />
         <Route component={NotFoundPage} />
       </Switch>
     </div>
