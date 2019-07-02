@@ -1,40 +1,65 @@
 import React from 'react';
 
 import CssBaseline from '@material-ui/core/CssBaseline';
+import Paper from '@material-ui/core/Paper';
+import Grid from '@material-ui/core/Grid';
+import Button from '@material-ui/core/Button';
+import Link from '@material-ui/core/Link';
 import Typography from '@material-ui/core/Typography';
-import { makeStyles } from '@material-ui/core/styles';
-import Container from '@material-ui/core/Container';
 
-import { Link } from 'react-router-dom';
+import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles(theme => ({
-  root: {
+  container: {
     display: 'flex',
     flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
     minHeight: '100vh',
   },
-  main: {
-    marginTop: theme.spacing(8),
-    marginBottom: theme.spacing(2),
+  paper: {
+    padding: theme.spacing(2),
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  button: {
+    margin: theme.spacing(1),
   },
 }));
 
-const NotFoundPage = () => {
+export default function FullWidthGrid() {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <Grid
+      container
+      spacing={0}
+      className={classes.container}
+    >
       <CssBaseline />
-      <Container component="main" className={classes.main} maxWidth="sm">
-        <Typography variant="h3" gutterBottom>
-          Not Found Page!
-        </Typography>
-
-        The requested content was not found! <br /> <br /> <br />
-        <Link to="/">Back</Link>
-      </Container>
-    </div>
+      <Paper className={classes.paper}>
+        <Grid container spacing={3}>
+          <Grid item xs={12}>
+            <Typography component="h1" variant="h6" align="center">
+              Not found content
+            </Typography>
+          </Grid>
+          <Grid item xs={12}>
+            <Typography variant="body1" align="center">
+              The requested content was not found!
+            </Typography>
+          </Grid>
+          <Grid item xs={12} align="center">
+            <Link href="/">
+              <Button variant="contained" color="primary" className={classes.button}>
+                Go Home!
+              </Button>
+            </Link>
+          </Grid>
+        </Grid>
+      </Paper>
+    </Grid>
   );
-};
-
-export default NotFoundPage;
+}
