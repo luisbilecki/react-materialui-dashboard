@@ -29,7 +29,7 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-export default function FullWidthGrid() {
+const NotFoundPage = () => {
   const classes = useStyles();
 
   return (
@@ -62,4 +62,6 @@ export default function FullWidthGrid() {
       </Paper>
     </Grid>
   );
-}
+};
+
+export default NotFoundPage;
