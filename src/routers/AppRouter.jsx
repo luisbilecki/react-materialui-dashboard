@@ -1,8 +1,12 @@
 import React from 'react';
-import { Router, Switch } from 'react-router-dom';
+import { Router, Route, Switch } from 'react-router-dom';
 import createHistory from 'history/createBrowserHistory';
-import SignIn from '../components/SignIn';
 
+// Pages
+import SignInPage from '../components/SignInPage';
+import NotFoundPage from '../components/NotFoundPage';
+
+// Routes handler
 import PublicRoute from './PublicRoute';
 
 export const history = createHistory();
@@ -11,7 +15,8 @@ const AppRouter = () => (
   <Router history={history}>
     <div>
       <Switch>
-        <PublicRoute path="/" component={SignIn} exact />
+        <PublicRoute path="/" component={SignInPage} exact />
+        <Route component={NotFoundPage} />
       </Switch>
     </div>
   </Router>
