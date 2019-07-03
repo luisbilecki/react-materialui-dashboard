@@ -1,4 +1,11 @@
-export default (state = {}, action) => {
+import { getAccessToken } from '../helpers/utility';
+
+const defaultState = {
+  accessToken: getAccessToken(),
+  loginError: null,
+};
+
+export default (state = defaultState, action) => {
   switch (action.type) {
     case 'LOGIN_SUCCESS':
       return {
