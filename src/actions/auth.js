@@ -1,13 +1,8 @@
-const actions = {
-  LOGIN: 'LOGIN',
-  LOGOUT: 'LOGOUT',
-  login: uid => ({
-    type: actions.LOGIN,
-    uid,
-  }),
-  logout: () => ({
-    type: actions.LOGOUT,
-  }),
-};
+export const login = userInfo => ({
+  type: 'LOGIN_REQUEST',
+  payload: { userInfo },
+});
 
-export default actions;
+export const logout = () => ({
+  type: 'LOGOUT',
+});

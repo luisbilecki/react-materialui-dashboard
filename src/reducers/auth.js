@@ -1,12 +1,14 @@
-import authActions from '../actions/auth';
-
 export default (state = {}, action) => {
   switch (action.type) {
-    case authActions.LOGIN:
+    case 'LOGIN_SUCCESS':
       return {
-        uid: action.uid,
+        accessToken: action.accessToken,
       };
-    case authActions.LOGOUT:
+    case 'LOGIN_ERROR':
+      return {
+        loginError: action.error,
+      };
+    case 'LOGOUT':
       return {};
     default:
       return state;
