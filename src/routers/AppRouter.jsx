@@ -1,13 +1,13 @@
 import React from 'react';
 import { Router, Route, Switch } from 'react-router-dom';
-import createHistory from 'history/createBrowserHistory';
+import { createBrowserHistory as createHistory } from 'history';
 
 // Pages
-import SignInPage from '../components/SignInPage';
-import SignUpPage from '../components/SignUpPage';
-import ForgotPasswordPage from '../components/ForgotPasswordPage';
-import NotFoundPage from '../components/NotFoundPage';
-import DashboardPage from '../components/DashboardPage';
+import SignInPage from '../containers/Pages/SignInPage';
+import SignUpPage from '../containers/Pages/SignUpPage';
+import ForgotPasswordPage from '../containers/Pages/ForgotPasswordPage';
+import NotFoundPage from '../containers/Pages/NotFoundPage';
+import DashboardPage from '../containers/App/App';
 
 // Routes handler
 import PublicRoute from './PublicRoute';
