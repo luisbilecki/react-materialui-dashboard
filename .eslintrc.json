@@ -4,6 +4,7 @@
         "es6": true,
         "jest": true
     },
+    "parser": "babel-eslint",
     "extends": [
         "airbnb"
     ],
@@ -23,6 +24,7 @@
     ],
     "rules": {
       "react/jsx-one-expression-per-line": "off",
+      "react/forbid-prop-types": "off",
       "import/no-named-as-default": "off"
     }
 }
