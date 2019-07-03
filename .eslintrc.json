@@ -25,6 +25,7 @@
     "rules": {
       "react/jsx-one-expression-per-line": "off",
       "react/forbid-prop-types": "off",
-      "import/no-named-as-default": "off"
+      "import/no-named-as-default": "off",
+      "func-names": ["error", "always", { "generators": "never" }]
     }
 }
