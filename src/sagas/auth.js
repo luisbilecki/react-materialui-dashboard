@@ -2,6 +2,7 @@ import {
   all, takeEvery, put, fork,
 } from 'redux-saga/effects';
 import { push } from 'react-router-redux';
+import { setAccessToken, clearAccessToken } from '../helpers/utility';
 
 export function* loginRequest() {
   yield takeEvery('LOGIN_REQUEST', function* (/* { payload } */) {
@@ -15,9 +16,16 @@ export function* loginRequest() {
   });
 }
 
+export function* loginSuccess() {
+  yield takeEvery('LOGIN_SUCCESS', function* (payload) {
+    yield setAccessToken(payload.accessToken);
+
+    yield put(push('/dashboard'));
+  });
+}
 export function* logout() {
   yield takeEvery('LOGOUT', function* () {
-    // Clear token info stored in local storage
+    yield clearAccessToken();
 
     // Redirect to dashboard
     yield put(push('/'));
@@ -27,6 +35,7 @@ export function* logout() {
 export default function* rootSaga() {
   yield all([
     fork(loginRequest),
+    fork(loginSuccess),
     fork(logout),
   ]);
 }

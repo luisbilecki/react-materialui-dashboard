@@ -27,7 +27,7 @@ PublicRoute.propTypes = {
 };
 
 const mapStateToProps = state => ({
-  isAuthenticated: !!state.auth.uid,
+  isAuthenticated: !!state.auth.accessToken,
 });
 
 export default connect(mapStateToProps)(PublicRoute);
