@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/react-materialui-dashboard/static/js/main.787e46ec.chunk.js",
-    "main.js.map": "/react-materialui-dashboard/static/js/main.787e46ec.chunk.js.map",
+    "main.js": "/react-materialui-dashboard/static/js/main.0773eec1.chunk.js",
+    "main.js.map": "/react-materialui-dashboard/static/js/main.0773eec1.chunk.js.map",
     "runtime~main.js": "/react-materialui-dashboard/static/js/runtime~main.241d88ca.js",
     "runtime~main.js.map": "/react-materialui-dashboard/static/js/runtime~main.241d88ca.js.map",
-    "static/js/2.ada0e4d7.chunk.js": "/react-materialui-dashboard/static/js/2.ada0e4d7.chunk.js",
-    "static/js/2.ada0e4d7.chunk.js.map": "/react-materialui-dashboard/static/js/2.ada0e4d7.chunk.js.map",
+    "static/js/2.73117849.chunk.js": "/react-materialui-dashboard/static/js/2.73117849.chunk.js",
+    "static/js/2.73117849.chunk.js.map": "/react-materialui-dashboard/static/js/2.73117849.chunk.js.map",
     "index.html": "/react-materialui-dashboard/index.html",
-    "precache-manifest.6711f893fba3a1f0f8089123a7d7f025.js": "/react-materialui-dashboard/precache-manifest.6711f893fba3a1f0f8089123a7d7f025.js",
+    "precache-manifest.167d406dbc4ac23a143c16be91fcc835.js": "/react-materialui-dashboard/precache-manifest.167d406dbc4ac23a143c16be91fcc835.js",
     "service-worker.js": "/react-materialui-dashboard/service-worker.js"
   }
 }
