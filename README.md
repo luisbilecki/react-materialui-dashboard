@@ -2,6 +2,9 @@
 
 This project contains a dashboard developed using [React](https://pt-br.reactjs.org/docs/getting-started.html) and [Material-UI](https://material-ui.com/pt/). 
 
+
+[You can access the dashboard clicking here](https://luisbilecki.github.io/react-materialui-dashboard/)
+
 ## Requirements
 
 This application requires:

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { createBrowserHistory as createHistory } from 'history';
 
 // Pages
@@ -16,7 +16,7 @@ import PrivateRoute from './PrivateRoute';
 export const history = createHistory();
 
 const AppRouter = () => (
-  <Router history={history}>
+  <BrowserRouter history={history} basename={process.env.PUBLIC_URL}>
     <div>
       <Switch>
         <PublicRoute path="/" component={SignInPage} exact />
@@ -26,7 +26,7 @@ const AppRouter = () => (
         <Route component={NotFoundPage} />
       </Switch>
     </div>
-  </Router>
+  </BrowserRouter>
 );
 
 export default AppRouter;
