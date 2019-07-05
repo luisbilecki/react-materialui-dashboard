@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/react-materialui-dashboard/static/js/main.1b850a81.chunk.js",
-    "main.js.map": "/react-materialui-dashboard/static/js/main.1b850a81.chunk.js.map",
-    "runtime~main.js": "/react-materialui-dashboard/static/js/runtime~main.241d88ca.js",
-    "runtime~main.js.map": "/react-materialui-dashboard/static/js/runtime~main.241d88ca.js.map",
-    "static/js/2.7be94224.chunk.js": "/react-materialui-dashboard/static/js/2.7be94224.chunk.js",
-    "static/js/2.7be94224.chunk.js.map": "/react-materialui-dashboard/static/js/2.7be94224.chunk.js.map",
-    "index.html": "/react-materialui-dashboard/index.html",
-    "precache-manifest.5c07fbee62145d13edcbada46f6a5d8e.js": "/react-materialui-dashboard/precache-manifest.5c07fbee62145d13edcbada46f6a5d8e.js",
-    "service-worker.js": "/react-materialui-dashboard/service-worker.js"
+    "main.js": "https://luisbilecki.github.io/react-materialui-dashboard/static/js/main.40a27f0d.chunk.js",
+    "main.js.map": "https://luisbilecki.github.io/react-materialui-dashboard/static/js/main.40a27f0d.chunk.js.map",
+    "runtime~main.js": "https://luisbilecki.github.io/react-materialui-dashboard/static/js/runtime~main.90e443e7.js",
+    "runtime~main.js.map": "https://luisbilecki.github.io/react-materialui-dashboard/static/js/runtime~main.90e443e7.js.map",
+    "static/js/2.7be94224.chunk.js": "https://luisbilecki.github.io/react-materialui-dashboard/static/js/2.7be94224.chunk.js",
+    "static/js/2.7be94224.chunk.js.map": "https://luisbilecki.github.io/react-materialui-dashboard/static/js/2.7be94224.chunk.js.map",
+    "index.html": "https://luisbilecki.github.io/react-materialui-dashboard/index.html",
+    "precache-manifest.560bd65f66521c942d025c63878f928e.js": "https://luisbilecki.github.io/react-materialui-dashboard/precache-manifest.560bd65f66521c942d025c63878f928e.js",
+    "service-worker.js": "https://luisbilecki.github.io/react-materialui-dashboard/service-worker.js"
   }
 }
