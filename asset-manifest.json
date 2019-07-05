@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/react-material-dashboard/static/js/main.6319f47e.chunk.js",
+    "main.js.map": "/react-material-dashboard/static/js/main.6319f47e.chunk.js.map",
+    "runtime~main.js": "/react-material-dashboard/static/js/runtime~main.6504781c.js",
+    "runtime~main.js.map": "/react-material-dashboard/static/js/runtime~main.6504781c.js.map",
+    "static/js/2.5d0c4041.chunk.js": "/react-material-dashboard/static/js/2.5d0c4041.chunk.js",
+    "static/js/2.5d0c4041.chunk.js.map": "/react-material-dashboard/static/js/2.5d0c4041.chunk.js.map",
+    "index.html": "/react-material-dashboard/index.html",
+    "precache-manifest.bc11c3d5fdc18a54b04ed99e9986ca77.js": "/react-material-dashboard/precache-manifest.bc11c3d5fdc18a54b04ed99e9986ca77.js",
+    "service-worker.js": "/react-material-dashboard/service-worker.js"
+  }
+}
