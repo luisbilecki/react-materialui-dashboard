@@ -178,7 +178,7 @@ class App extends Component {
             </IconButton>
           </div>
           <Divider />
-          <List>
+          <List component="nav">
             <Sidebar />
           </List>
         </Drawer>

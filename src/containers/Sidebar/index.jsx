@@ -4,12 +4,13 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import Icon from '@material-ui/core/Icon';
+import Link from '@material-ui/core/Link';
 
 const menuItems = [
   {
     label: 'Dashboard',
     icon: 'dashboard',
-    key: 'dashboard',
+    key: '',
   },
   {
     label: 'Orders',
@@ -30,7 +31,7 @@ const menuItems = [
 
 const Sidebar = () => (
   menuItems.map(item => (
-    <ListItem button key={item.key}>
+    <ListItem button key={item.key} component={Link} href={`/dashboard/${item.key}`} color="inherit">
       <ListItemIcon>
         <Icon>{ item.icon }</Icon>
       </ListItemIcon>
