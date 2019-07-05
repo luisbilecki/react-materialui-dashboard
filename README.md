@@ -49,7 +49,7 @@ npm start
 ## Things to do
 
 * Use hooks instead of this.setState;
-* Create sidebar links;
+* Create sidebar links; :heavy_check_mark:
 * Create tests using Jest and Enzyme;
 * Add more pages/components as example;
 * Add a menu in dashboard containing: profile, logout;
